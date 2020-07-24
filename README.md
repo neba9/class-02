@@ -2,8 +2,10 @@
 
 ### i created about me wab-pages including some guessing game based on questions and it has three diffirent pages. such as:
 
-- index-html:- i use html 
+#### languages 
 
-- style.css:- i use css
+- index-html : HTML
 
-- app-js:- i use javaScript
+- style.css : CSS
+
+- app-js : JavaScript 

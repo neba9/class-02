@@ -46,4 +46,4 @@ var score =0;
    }
  }
 
- alert( "Heloo Welcome to my Game," +  name  +   "you got" + score + "/" +questions.length );
+ alert( "Heloo Welcome to my Game," +  name  +   " you got " + score + "/" +questions.length );
