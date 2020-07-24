@@ -1,0 +1,26 @@
+
+
+body {
+    background-color: bisque;
+}
+
+h1 {
+    color: blue;
+}
+
+h3 {
+    background-color: rgb(230, 186, 11);
+    color: cyan;
+}
+
+p {
+    color: darkgreen;
+}
+
+ul {
+    color: darkslategray;
+}
+
+ol {
+    color: darkslategray;
+}
