@@ -9,3 +9,5 @@
 - style.css : CSS
 
 - app-js : JavaScript 
+
+- modifing the js part.
