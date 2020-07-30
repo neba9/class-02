@@ -10,4 +10,10 @@
 
 - app-js : JavaScript 
 
-- modifing the js part.
+- modifing the js part.  
+
+
+# Driver Brandon
+# Navigator  Nebiyu
+
+# we added  the quiz function compilings two of the function is the js file to get the array of prompt to work correctly
