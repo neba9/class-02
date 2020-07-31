@@ -10,10 +10,8 @@ function greeting() {
 }
 greeting();
 
-console.log('check 1')
-
 function quiz() {
-  console.log('check two')
+
   var questions = [
 
     {
@@ -51,41 +49,42 @@ function quiz() {
     }
   }
 }
-  quiz();
+quiz();
 
-  function questionsOne() {
+function questionsSix() {
 
-    var score = 0;
-    var count = 6;
-    var answer = 2;
+  var score = 0;
+  var count = 0;
+  var answer = 2;
 
-    for (var i = 0; i < 5; i++) {
-      var guess = prompt('guess my lucky number?');
-      count++;
-      if (count === 4) {
-        alert('the write answer ' + answer);
-        break;
-      }
-      if (answer === parseInt(guess)) {
-        score++;
-        console.log(score);
-        alert('yes mylucky 2');
+  for (var i = 0; i < 5; i++) {
+    var guess = prompt('guess my lucky number?');
+    count++;
+    if (count === 4) {
+      alert('the write answer ' + answer);
+      break;
+    }
+    if (answer === parseInt(guess)) {
+      score++;
+      console.log(score);
+      alert('yes mylucky 2');
 
 
-        break;
+      break;
 
-      } else if (guess > answer) {
-        alert('too high');
+    } else if (guess > answer) {
+      alert('too high');
 
-      } else if (guess < answer) {
-        alert('too low');
-
-      }
+    } else if (guess < answer) {
+      alert('too low');
 
     }
-  }
-  questionsOne();
 
+  }
+}
+questionsSix();
+
+function questionsSeven() {
 
   var color = prompt('Guess my top four color do i like? ').toLowerCase();
   var colorLike = ['white', 'red', 'belu', 'black'];
@@ -110,5 +109,7 @@ function quiz() {
   }
 
 
+}
+questionsSeven();
 
-  alert('Thank you for visiting my site,' + name + ' you got ' + score + '/' + questions.length);
+alert('Thank you for visiting my site,' + name + ' you got ' + score + '/' + ' out of 7');
